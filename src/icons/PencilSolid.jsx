@@ -1,0 +1,18 @@
+const PencilSolid = ({ size = 16, color = 'currentColor', className, 'aria-label': ariaLabel }) => (
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 16 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className={className}
+    aria-hidden={ariaLabel ? undefined : true}
+    role={ariaLabel ? 'img' : undefined}
+    aria-label={ariaLabel}
+  >
+    <path d="M11.5001 7.20703L5.35362 13.3535C5.28387 13.4233 5.19447 13.4708 5.09776 13.4902L2.59776 13.9902C2.434 14.0229 2.2647 13.9716 2.14658 13.8535C2.02846 13.7354 1.97723 13.5662 2.00987 13.4023L2.50987 10.9023L2.5294 10.8311C2.55422 10.7619 2.59423 10.6988 2.64658 10.6465L8.79307 4.5L11.5001 7.20703Z" fill={color} />
+    <path d="M12.0001 2C12.4528 2.00006 12.887 2.17993 13.2071 2.5L13.5001 2.79297C13.8202 3.1131 14.0001 3.54732 14.0001 4C14.0001 4.45268 13.8202 4.8869 13.5001 5.20703L12.2071 6.5L9.5001 3.79297L10.7931 2.5C11.1132 2.17995 11.5474 2 12.0001 2Z" fill={color} />
+  </svg>
+);
+
+export default PencilSolid;

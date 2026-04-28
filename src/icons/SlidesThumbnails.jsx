@@ -1,0 +1,17 @@
+const SlidesThumbnails = ({ size = 16, color = 'currentColor', className, 'aria-label': ariaLabel }) => (
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 16 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className={className}
+    aria-hidden={ariaLabel ? undefined : true}
+    role={ariaLabel ? 'img' : undefined}
+    aria-label={ariaLabel}
+  >
+    <path d="M14 4.5C14 3.67157 13.3284 3 12.5 3H8.5C7.67157 3 7 3.67157 7 4.5V11.5C7 12.3284 7.67157 13 8.5 13H12.5C13.3284 13 14 12.3284 14 11.5V4.5ZM4 10C4 9.72386 3.77614 9.5 3.5 9.5H2.5C2.22386 9.5 2 9.72386 2 10V12C2 12.2761 2.22386 12.5 2.5 12.5H3.5C3.77614 12.5 4 12.2761 4 12V10ZM4 4C4 3.72386 3.77614 3.5 3.5 3.5H2.5C2.22386 3.5 2 3.72386 2 4V6C2 6.27614 2.22386 6.5 2.5 6.5H3.5C3.77614 6.5 4 6.27614 4 6V4ZM5 12C5 12.8284 4.32843 13.5 3.5 13.5H2.5C1.67157 13.5 1 12.8284 1 12V10C1 9.17157 1.67157 8.5 2.5 8.5H3.5C4.32843 8.5 5 9.17157 5 10V12ZM15 11.5C15 12.8807 13.8807 14 12.5 14H8.5C7.11929 14 6 12.8807 6 11.5V4.5C6 3.11929 7.11929 2 8.5 2H12.5C13.8807 2 15 3.11929 15 4.5V11.5ZM5 6C5 6.82843 4.32843 7.5 3.5 7.5H2.5C1.67157 7.5 1 6.82843 1 6V4C1 3.17157 1.67157 2.5 2.5 2.5H3.5C4.32843 2.5 5 3.17157 5 4V6Z" fill={color} />
+  </svg>
+);
+
+export default SlidesThumbnails;

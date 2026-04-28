@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "figma": {
+      "command": "npx",
+      "args": ["-y", "figma-developer-mcp", "--figma-api-key", "figd_kr-7GD-OLRSPKivytllFmB-2LBL1H71A-CQZXyaR", "--stdio"]
+    }
+  }
+}Y
+Y
+{
+  "mcpServers": {
+    "figma": {
+      "command": "npx",
+      "args": ["-y", "figma-developer-mcp", "--figma-api-key", "figd_kr-7GD-OLRSPKivytllFmB-2LBL1H71A-CQZXyaR", "--stdio"]
+    }
+
+
+cd ~/Documents/Mykyta\ HQ/Projects/icon-library
+
+
+
+
+
+

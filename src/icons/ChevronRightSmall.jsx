@@ -1,0 +1,17 @@
+const ChevronRightSmall = ({ size = 16, color = 'currentColor', className, 'aria-label': ariaLabel }) => (
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 16 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className={className}
+    aria-hidden={ariaLabel ? undefined : true}
+    role={ariaLabel ? 'img' : undefined}
+    aria-label={ariaLabel}
+  >
+    <path d="M6.62989 10.6641C6.44441 10.8684 6.45983 11.1845 6.66407 11.3701C6.8684 11.5556 7.18445 11.5402 7.37012 11.3359L9.70215 8.77149C9.89398 8.56043 10 8.28521 10 8C10 7.71479 9.89398 7.43957 9.70215 7.22852L7.37012 4.66407C7.18445 4.45983 6.8684 4.44441 6.66407 4.62989C6.45983 4.81555 6.44441 5.1316 6.62989 5.33594L8.96192 7.90137C8.98644 7.92836 9 7.96354 9 8C9 8.03647 8.98644 8.07165 8.96192 8.09864L6.62989 10.6641Z" fill={color} />
+  </svg>
+);
+
+export default ChevronRightSmall;
